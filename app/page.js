@@ -1,11 +1,28 @@
 import Image from "next/image";
 import logo from "./logo.png"
+import pear from "./pear.gif"
+import pear1 from "./pear1.gif"
 export default function Home() {
   return (
     <div
     class="flex overflow-hidden flex-col items-center px-20 bg-gradient-to-b from-blue-500 via-green-300 to-blue-500  min-h-[900px] max-md:px-5"
     role="main"
   >
+    <div className="flex justify-between pt-8 w-full">    
+      <p></p> 
+      <a
+              href="https://app.hyperliquid.xyz/trade/0x1ad748b576a84f6eb6541389bb53d164"
+              class="flex overflow-hidden gap-2 justify-center items-center px-4 py-2 leading-loose text-teal-600 bg-green-300 rounded-md min-h-[36px] shadow-[0px_1px_3px_rgba(0,0,0,0.1)]"
+              role="button"
+            >
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/5be5666591efd2ad2225b9b2fb90ebc22f6a163c1f41195f1c9975db43f46acf?placeholderIfAbsent=true&apiKey=4fbda15560e64e0caf773165d88f4da3"
+                alt=""
+                class="object-contain shrink-0 self-stretch my-auto w-4 aspect-square"
+              />
+              <span class="self-stretch my-auto">Enter</span>
+            </a></div>
     <div
       class="flex flex-col justify-center items-center px-96 py-48 max-w-full min-h-[900px] w-[1280px] max-md:px-5 max-md:py-24"
     >
@@ -20,11 +37,14 @@ export default function Home() {
           />
           
         </div>
-        <h1
-          class="mt-8 text-6xl font-bold leading-none text-center whitespace-nowrap max-md:text-4xl"
-        >
-        Pear
-        </h1>
+    
+        <Image
+            src={pear1}
+            alt="Pear Logo"
+            class="object-contain w-full rounded-2xl aspect-square"
+            width={256}
+            height={156}
+          />
         <p
           class="mt-8 text-2xl font-medium leading-none text-center text-green-200"
         >
