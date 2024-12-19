@@ -12,7 +12,7 @@ export default function Home() {
     <div className="flex justify-between pt-8 w-full">    
       <p></p> 
       <a
-              href="https://app.hyperliquid.xyz/trade/0x1ad748b576a84f6eb6541389bb53d164"
+              href="/enter"
               class="flex overflow-hidden gap-2 justify-center items-center px-4 py-2 leading-loose text-teal-600 bg-green-300 rounded-md min-h-[36px] shadow-[0px_1px_3px_rgba(0,0,0,0.1)]"
               role="button"
             >
@@ -54,9 +54,9 @@ export default function Home() {
           (Powerful Engine AI Robots) built on top of High PEAR Liquid
         </p>
         <div
-          class="flex flex-col self-stretch pt-8 mt-8 text-sm font-medium text-center"
+          class="flex flex-col items-center justify-center pt-8 mt-8 text-sm font-medium text-center"
         >
-          <div class="flex gap-4 items-start">
+          <div class="flex gap-4 items-center">
             <a
               href="https://app.hyperliquid.xyz/trade/0x1ad748b576a84f6eb6541389bb53d164"
               class="flex overflow-hidden gap-2 justify-center items-center px-4 py-2 leading-loose text-teal-600 bg-green-300 rounded-md min-h-[36px] shadow-[0px_1px_3px_rgba(0,0,0,0.1)]"
