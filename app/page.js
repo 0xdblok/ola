@@ -28,7 +28,7 @@ export default function Home() {
         <p
           class="mt-8 text-2xl font-medium leading-none text-center text-green-200"
         >
-          just a Hyperliquid CaT
+          just Pear on Hyperliquid
         </p>
         <div
           class="flex flex-col self-stretch pt-8 mt-8 text-sm font-medium text-center"
