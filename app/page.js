@@ -28,7 +28,7 @@ export default function Home() {
         <p
           class="mt-8 text-2xl font-medium leading-none text-center text-green-200"
         >
-          just Pear on Hyperliquid
+          (Powerful Engine AI Robots) built on top of High PEAR Liquid
         </p>
         <div
           class="flex flex-col self-stretch pt-8 mt-8 text-sm font-medium text-center"
@@ -45,7 +45,7 @@ export default function Home() {
                 alt=""
                 class="object-contain shrink-0 self-stretch my-auto w-4 aspect-square"
               />
-              <span class="self-stretch my-auto">Trade on Hypurr Fun</span>
+              <span class="self-stretch my-auto">Trade on Hyperliquid</span>
             </a>
             <a
               href="https://x.com/PearOnHL"
