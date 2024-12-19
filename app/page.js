@@ -3,6 +3,73 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div
+    class="flex overflow-hidden flex-col items-center px-20 bg-white min-h-[900px] max-md:px-5"
+    role="main"
+  >
+    <div
+      class="flex flex-col justify-center items-center px-96 py-48 max-w-full min-h-[900px] w-[1280px] max-md:px-5 max-md:py-24"
+    >
+      <div class="flex flex-col items-center w-full">
+        <div class="flex flex-col w-64 max-w-full min-h-[256px]">
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/49360d00ba29a6436466a65cc823ef07951eff307ca78b7b6115f1671df73505?placeholderIfAbsent=true&apiKey=4fbda15560e64e0caf773165d88f4da3"
+            alt="LCAT Logo"
+            class="object-contain w-full rounded-2xl aspect-square"
+          />
+        </div>
+        <h1
+          class="mt-8 text-6xl font-bold leading-none text-center whitespace-nowrap max-md:text-4xl"
+        >
+          LCAT
+        </h1>
+        <p
+          class="mt-8 text-2xl font-medium leading-none text-center text-green-300"
+        >
+          just a Hyperliquid CaT
+        </p>
+        <div
+          class="flex flex-col self-stretch pt-8 mt-8 text-sm font-medium text-center"
+        >
+          <div class="flex gap-4 items-start">
+            <a
+              href="#trade"
+              class="flex overflow-hidden gap-2 justify-center items-center px-4 py-2 leading-loose text-teal-600 bg-green-300 rounded-md min-h-[36px] shadow-[0px_1px_3px_rgba(0,0,0,0.1)]"
+              role="button"
+            >
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/5be5666591efd2ad2225b9b2fb90ebc22f6a163c1f41195f1c9975db43f46acf?placeholderIfAbsent=true&apiKey=4fbda15560e64e0caf773165d88f4da3"
+                alt=""
+                class="object-contain shrink-0 self-stretch my-auto w-4 aspect-square"
+              />
+              <span class="self-stretch my-auto">Trade on Hypurr Fun</span>
+            </a>
+            <a
+              href="#twitter"
+              class="flex gap-2 justify-center items-center px-4 py-2 leading-loose text-green-300 rounded-md border border-green-300 border-solid bg-white bg-opacity-0 min-h-[36px] shadow-[0px_1px_2px_rgba(0,0,0,0.05)]"
+              role="button"
+            >
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/f713f3c475fc151899197f0536d446fec0b505be215a452b840433803c9e23c6?placeholderIfAbsent=true&apiKey=4fbda15560e64e0caf773165d88f4da3"
+                alt=""
+                class="object-contain shrink-0 self-stretch my-auto w-4 aspect-square"
+              />
+              <span class="self-stretch my-auto">Follow on Twitter</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  );
+}
+
+/*
+    <div
     class="flex relative flex-col px-96 pt-32 pb-44 bg-white min-h-[1048px] min-w-[320px] max-md:px-5 max-md:py-24"
   >
     <div
@@ -71,6 +138,4 @@ export default function Home() {
         />
       </div>
     </nav>
-  </div>
-  );
-}
+  </div>*/
