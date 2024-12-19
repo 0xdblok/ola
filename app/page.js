@@ -1,9 +1,9 @@
 import Image from "next/image";
-
+import logo from "./logo.png"
 export default function Home() {
   return (
     <div
-    class="flex overflow-hidden flex-col items-center px-20 bg-white min-h-[900px] max-md:px-5"
+    class="flex overflow-hidden flex-col items-center px-20 bg-gradient-to-b from-blue-500 via-green-300 to-blue-500  min-h-[900px] max-md:px-5"
     role="main"
   >
     <div
@@ -11,20 +11,22 @@ export default function Home() {
     >
       <div class="flex flex-col items-center w-full">
         <div class="flex flex-col w-64 max-w-full min-h-[256px]">
-          <img
-            loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/49360d00ba29a6436466a65cc823ef07951eff307ca78b7b6115f1671df73505?placeholderIfAbsent=true&apiKey=4fbda15560e64e0caf773165d88f4da3"
-            alt="LCAT Logo"
+          <Image
+            src={logo}
+            alt="Pear Logo"
             class="object-contain w-full rounded-2xl aspect-square"
+            width={256}
+            height={256}
           />
+          
         </div>
         <h1
           class="mt-8 text-6xl font-bold leading-none text-center whitespace-nowrap max-md:text-4xl"
         >
-          LCAT
+        Pear
         </h1>
         <p
-          class="mt-8 text-2xl font-medium leading-none text-center text-green-300"
+          class="mt-8 text-2xl font-medium leading-none text-center text-green-200"
         >
           just a Hyperliquid CaT
         </p>
@@ -33,7 +35,7 @@ export default function Home() {
         >
           <div class="flex gap-4 items-start">
             <a
-              href="#trade"
+              href="https://app.hyperliquid.xyz/trade/0x1ad748b576a84f6eb6541389bb53d164"
               class="flex overflow-hidden gap-2 justify-center items-center px-4 py-2 leading-loose text-teal-600 bg-green-300 rounded-md min-h-[36px] shadow-[0px_1px_3px_rgba(0,0,0,0.1)]"
               role="button"
             >
@@ -46,7 +48,7 @@ export default function Home() {
               <span class="self-stretch my-auto">Trade on Hypurr Fun</span>
             </a>
             <a
-              href="#twitter"
+              href="https://x.com/PearOnHL"
               class="flex gap-2 justify-center items-center px-4 py-2 leading-loose text-green-300 rounded-md border border-green-300 border-solid bg-white bg-opacity-0 min-h-[36px] shadow-[0px_1px_2px_rgba(0,0,0,0.05)]"
               role="button"
             >
